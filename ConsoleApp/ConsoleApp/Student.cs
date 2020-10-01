@@ -10,9 +10,6 @@ namespace ConsoleApp
         public string Course { get; set; }
         public int StudentBook { get; set; }
 
-        public string UpLastName;
-        public string UpCourse;
-
         public Student(string lastName, string course, int id)
         {
             LastName = lastName;
