@@ -18,13 +18,11 @@ namespace ConsoleApp
             LastName = lastName;
             Course = course;
             StudentBook = id;
-            UpLastName = LastName[0].ToString().ToUpper() + LastName.Substring(1);
-            UpCourse = Course[0].ToString().ToUpper() + Course.Substring(1);
         }
 
         public void Print()
         {
-            Console.WriteLine($"Студент {UpLastName} изучает {UpCourse} и номер зачетной книжки равен {StudentBook}.");
+            Console.WriteLine($"Студент {LastName} изучает {Course} и номер зачетной книжки равен {StudentBook}.");
         }
 
     }
