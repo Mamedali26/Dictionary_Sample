@@ -43,6 +43,7 @@ namespace ConsoleApp
             students.Clear();
             Console.WriteLine($"Количество студентов после очистки списка: {students.Count}. Список пуст...");
             Console.WriteLine("----------------------------------------\n");
+            Console.ReadKey();
         }
     }
 }
